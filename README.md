@@ -1,4 +1,18 @@
-# exercises_ruby_2
+LE PROJET
+
+Pour ce projet, crée un repository GitHub (un par équipe de pair-programmers). Pour chaque section du projet, tu devras créer un fichier qui contient les méthodes que l'on te demandera de faire. Afin d'éviter d'avoir un dossier un peu bordélique, range tous les programmes dans un dossier lib (c'est la convention de nommage pour les dossiers Ruby). À la fin, ton dossier devrait ressembler à ça :
+
+ton_dossier
+├── lib
+│   ├── 00_hello.rb
+│   ├── 01_pyramids.rb
+│   ├── 02_password.rb
+│   └── 03_stairway.rb
+└── README.md
+2.1. Programme 0 : Hello !
+Ton programme sera contenu dans un lib/00_hello.rb.
+
+Vald a besoin de toi pour l'écriture de sa prochaine chanson à succès : il lui faudrait un programme qui dit bonjour.
 
 2.1.1 Dis bonjour
 Code une méthode say_hello qui va dire bonjour quand on l'exécute. Ça devrait ressembler à quelque chose du genre :
@@ -103,3 +117,17 @@ Quand le joueur atteint la 10ème marche, le programme l'en informe avec un mess
 L'une des grandes forces de l'informatique est de pouvoir faire un nombre conséquent d'itérations et de pouvoir sortir des moyennes et médianes très facilement.
 
 Fais donc une méthode average_finish_time qui va simuler au moins 100 parties, et te retourner le nombre de tours moyen pour arriver à la 10ème marche.
+
+3. Rendu attendu
+Un joli repo GitHub (un par groupe de pair-programming) avec les fichiers .rb correspondant aux exercices ci-dessus. Pour rappel, voici la structure attendue :
+
+ton_repo
+├── lib
+│   ├── 00_hello.rb
+│   ├── 01_pyramids.rb
+│   ├── 02_password.rb
+│   └── 03_stairway.rb
+└── README.md
+Petit conseil : afin d'aider tes futurs correcteurs, nous allons te demander de laisser les méthodes perform dans les programmes, ce qui permettra de les lancer et les tester facilement.
+
+Pensez bien à rédiger un peu le README.md avec une petite explication du fonctionnement de chaque fichier et vos noms/prénoms/pseudo sur Slack.
